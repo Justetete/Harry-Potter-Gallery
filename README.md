@@ -19,7 +19,7 @@
 ## Project Overview
 
 This project is a static web portfolio centered around Harry Potter themes. It demonstrates a simple, elegant gallery-style layout that displays imagery or content related to the Harry Potter universe. It’s meant as a creative showcase using only HTML and CSS.  
-[Repository Link](https://github.com/Justetete/Harry-Potter-Gallery)
+You can visit this [page](https://justetete.github.io/Harry-Potter-Gallery/) to see what it looks like!
 
 ---
 
