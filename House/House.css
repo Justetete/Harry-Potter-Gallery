@@ -1,0 +1,145 @@
+#Gryffindor {
+    background-color: #9C3634;
+}
+
+#Hufflepuff {
+    background-color: #E7C33E;
+}
+
+#Ravenclaw {
+    background-color: #126399;
+}
+
+#Slytherin {
+    background-color: #2C471C;
+}
+
+.house-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.house-side {
+    padding-left: 20px;
+    width: 30%;
+    box-sizing: border-box;
+}
+
+.house-text {
+    margin: 20px;
+    border: 1px solid gray;
+    border-radius: 30px;
+    width: 70%;
+    text-align: center;
+    padding: 10px;
+    justify-content: center;
+    align-items: center; 
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 600px) {
+    .house-info {
+        flex-direction: column;
+    }
+
+    .house-side, .house-text {
+        width: 100%;
+        text-align: left; 
+    }
+}
+
+.intro {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.sorting-img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+}
+
+.sorting-img img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+#text {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1em;
+    color: #000;
+}
+
+#sorting-hat-text {
+    text-align: center;
+    float: inline-end;
+}
+.sorting-hat-text {
+    width: 60%;
+    text-align: justify;
+    padding: 20px;
+}
+
+@media screen and (max-width: 600px) {
+    .intro {
+        flex-direction: column;
+        padding: 10px;
+    }
+    
+    .sorting-img, .sorting-hat {
+        width: 100%;
+        text-align: center;
+    }
+
+    .sorting-img img {
+        max-width: 60%;
+    }
+}
+
+.house-head {
+    width: 100%;
+    text-transform: uppercase;
+    font-family: "Crimson Text";
+    color: black;
+    line-height: 100%;
+}
+
+
+.dancing-script {
+  font-family: "Dancing Script", cursive;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.sorting-hat {
+    font-style: italic;
+    font-family: "Dancing Script", cursive;
+    margin: 5px;
+    padding: 5px;
+    font-size: 25px;
+}
+
+.notable-people {
+    font-size: 23px;
+}
+
+ul {
+    list-style: none;
+}
+
+.trais {
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+
+

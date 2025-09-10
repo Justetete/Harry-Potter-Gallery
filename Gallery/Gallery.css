@@ -1,0 +1,76 @@
+#header {
+    font-family: 'Harry Potter', sans-serif;
+    font-size: 25px;
+    background-image: url(../image/Hogwarts.gif);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+    padding: 2px;         
+}
+body {
+    background-image: url(../image/Gallery/background.jpg);
+}
+#nav ul{
+    list-style: none;
+    line-height: 30px;
+    background-color: rgb(0, 0, 0);
+    height: 100%;
+    width: 100%;
+    margin: 1px;
+    padding: 2px;
+    align-items: center;
+    
+}
+
+#nav li{
+    display: inline-block;
+}
+#nav a{
+    display: block;
+    color: white;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    text-decoration: none;
+}
+#nav a:hover{
+    background-color: darkgray;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.999999%;
+}
+
+@media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }

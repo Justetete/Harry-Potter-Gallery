@@ -1,0 +1,119 @@
+#header {
+    font-family: 'Harry Potter', sans-serif;
+    font-size: 25px;
+    background-image: url(../image/Hogwarts.gif);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+    padding: 2px;         
+}
+
+#nav ul{
+    list-style: none;
+    line-height: 30px;
+    background-color: rgb(0, 0, 0);
+    height: 100%;
+    width: 100%;
+    margin: 1px;
+    padding: 2px;
+    align-items: center;   
+}
+
+#nav li{
+    display: inline-block;
+}
+#nav a{
+    display: block;
+    color: white;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    text-decoration: none;
+}
+
+#nav a:hover{
+    background-color: darkgray;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+  
+ 
+.dropdown-content a:hover {
+    background-color: darkgray
+}
+  
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+  
+.dropdown:hover #house {
+    background-color: darkgray;
+}
+
+* {
+    box-sizing: border-box;
+}
+.column {
+    float: left;
+    padding: 10px;
+}
+
+.column.side {
+    width:25%;
+    background-color: slategrey;
+}
+.column.side ul{
+    list-style: circle;
+}
+.column.side h3, li{
+    color: wheat;
+}
+
+.column.main {
+    width: 75%;
+}
+
+.column.main h2{
+    font-size: 35px;
+}
+
+.column.main p{
+    font-size: 20px;
+}
+
+.row::after {
+    content:"";
+    display: table;
+    clear: both;
+}
+
+.photo img{
+    width: 400px;
+}
+
+@media screen and (max-width: 600px) {
+    .column.side, .column.middle {
+      width: 100%;
+    }
+  }
